@@ -81,19 +81,21 @@ TaskFlow is a secure and scalable task management platform that supports:
 * Protected Routes
 * Automatic Token Refresh
 
-##Screenshots
-Landing Page
+### Screenshots
+
+# Landing Page
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/494a3946-dacf-4b80-9791-816840da743e" />
-Login Page
+
+# Login Page
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/71164a4c-8ef3-499b-9800-9000fea550c6" />
 
-Registration Page
+# Registration Page
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/07d90e40-d368-4925-93b4-ce3f293f0f37" />
 
-Dashboard
+# Dashboard
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/364a9ba3-a3b8-49f1-a8d8-c0f3459c59f1" />
 
-Add New Task
+# Add New Task
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fea891b7-7df6-4953-a7a4-687ac071982a" />
 
 ---
