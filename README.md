@@ -83,15 +83,19 @@ TaskFlow is a secure and scalable task management platform that supports:
 
 ##Screenshots
 Landing Page
-<img width="3520" height="1080" alt="image" src="https://github.com/user-attachments/assets/34e93ef3-0f09-4117-8e25-a6c8a09116a7" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/494a3946-dacf-4b80-9791-816840da743e" />
 Login Page
-<img width="3520" height="1080" alt="image" src="https://github.com/user-attachments/assets/601553c2-268e-460a-9fad-2c89ffb208ec" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/71164a4c-8ef3-499b-9800-9000fea550c6" />
+
 Registration Page
-<img width="3520" height="1080" alt="image" src="https://github.com/user-attachments/assets/476d76c2-ef0b-4a22-9d1f-3b80ee434068" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/07d90e40-d368-4925-93b4-ce3f293f0f37" />
+
 Dashboard
-<img width="3520" height="1080" alt="image" src="https://github.com/user-attachments/assets/6e3de858-97cc-4e95-bbb5-80e18a1ee8af" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/364a9ba3-a3b8-49f1-a8d8-c0f3459c59f1" />
+
 Add New Task
-<img width="3520" height="1080" alt="image" src="https://github.com/user-attachments/assets/d563bffb-7a67-4176-a3c6-d3067d37acca" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fea891b7-7df6-4953-a7a4-687ac071982a" />
+
 ---
 
 ## 🛠️ Tech Stack
