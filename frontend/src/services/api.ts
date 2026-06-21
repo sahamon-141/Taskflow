@@ -2,7 +2,7 @@ import axios, { AxiosRequestConfig, InternalAxiosRequestConfig } from "axios";
 
 // Create custom Axios instance
 const api = axios.create({
-  baseURL: "http://localhost:8080",
+  baseURL: import.meta.env.VITE_API_URL || "http://localhost:8080",
   headers: {
     "Content-Type": "application/json",
   },
@@ -82,7 +82,8 @@ api.interceptors.response.use(
       }
 
       try {
-        const response = await axios.post("http://localhost:8080/api/auth/refresh", {
+        const apiBaseUrl = import.meta.env.VITE_API_URL || "http://localhost:8080";
+        const response = await axios.post(`${apiBaseUrl}/api/auth/refresh`, {
           refreshToken,
         });
 

@@ -117,7 +117,11 @@ bun run build
 The network layer interacts with the backend endpoints via [src/services/api.ts](file:///d:/Taskflow/Frontend/src/services/api.ts).
 
 ### Custom Base URL
-By default, the client points to `http://localhost:8080`. To direct requests to a remote staging or production API, update the `baseURL` within `src/services/api.ts` or leverage environment variables depending on your deployment server environment.
+By default, the client points to `http://localhost:8080`. To change this, you can configure the environment variable `VITE_API_URL` (for example, in a `.env` file in the project root):
+```env
+VITE_API_URL=https://your-api-server.com
+```
+The application will dynamically use `import.meta.env.VITE_API_URL` for all API calls, falling back to `http://localhost:8080` if not set.
 
 ### Authorization Interceptor
 All outgoing requests are intercepted to dynamically attach the `taskflow_access_token` stored in LocalStorage. If a request returns a `401 Unauthorized` response, the client uses a queue mechanism to call `/api/auth/refresh`, rotate JWT credentials, update LocalStorage, and automatically retry any failed requests in the pipeline transparently to the user.

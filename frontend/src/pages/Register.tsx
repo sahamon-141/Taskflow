@@ -95,7 +95,8 @@ export function Register() {
           setApiError("Registration failed. Please try again.");
         }
       } else if (err.request) {
-        setApiError("Server is unreachable. Please verify the backend is running at http://localhost:8080");
+        const apiBaseUrl = import.meta.env.VITE_API_URL || "http://localhost:8080";
+        setApiError(`Server is unreachable. Please verify the backend is running at ${apiBaseUrl}`);
       } else {
         setApiError("An unexpected error occurred. Please try again.");
       }
